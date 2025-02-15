@@ -1,5 +1,31 @@
-- name: Deploy to GitHub Pages
-  uses: JamesIves/github-pages-deploy-action@v4
-  with:
-    branch: gh-pages  # Target the gh-pages branch
-    folder: dist      # The folder with the build files
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment when pushing to 'main' branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Runs on an Ubuntu server
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # GitHub Action for checking out the repo
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # Specify Node.js version
+
+      - name: Install dependencies
+        run: npm install  # Install project dependencies
+
+      - name: Build the project
+        run: npm run build  # Build the project
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4  # GitHub Pages deploy action
+        with:
+          branch: gh-pages  # The branch to deploy to
+          folder: dist      # The folder where the built files are located
