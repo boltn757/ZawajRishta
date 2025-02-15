@@ -1,0 +1,47 @@
+{
+  "common": {
+    "search": "Search",
+    "login": "Login",
+    "register": "Register",
+    "about": "About Us",
+    "findMatches": "Find Matches",
+    "registerFree": "Register Free"
+  },
+  "hero": {
+    "title": "Find Your Halal Partner",
+    "subtitle": "Join thousands of Muslims who have found their life partner through our Islamic matrimonial service.",
+    "cta": {
+      "start": "Start Your Search",
+      "learn": "Learn More"
+    }
+  },
+  "search": {
+    "title": "Quick Search",
+    "lookingFor": "Looking for",
+    "ageFrom": "Age From",
+    "ageTo": "Age To",
+    "location": "Location",
+    "sect": "Sect",
+    "searchButton": "Search Matches"
+  },
+  "features": {
+    "title": "Why Choose HalalMatch?",
+    "subtitle": "Find your perfect match with our unique features and Islamic values",
+    "islamicValues": {
+      "title": "Islamic Values",
+      "description": "Our platform is built on Islamic principles, ensuring a halal way to find your life partner."
+    },
+    "verification": {
+      "title": "Verified Profiles",
+      "description": "Every profile is verified through phone number authentication for your safety and security."
+    },
+    "family": {
+      "title": "Family Involvement",
+      "description": "Include your family in the matchmaking process, respecting traditional Islamic values."
+    },
+    "ai": {
+      "title": "AI Matchmaking",
+      "description": "Advanced AI technology to find compatible matches based on your preferences and values."
+    }
+  }
+}

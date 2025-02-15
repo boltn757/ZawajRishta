@@ -1,0 +1,59 @@
+{
+  "common": {
+    "search": "Søk",
+    "login": "Logg inn",
+    "register": "Registrer deg",
+    "about": "Om oss",
+    "findMatches": "Finn partnere",
+    "registerFree": "Registrer deg gratis"
+  },
+  "hero": {
+    "title": "Finn din halal partner",
+    "subtitle": "Bli med tusenvis av muslimer som har funnet sin livsledsager gjennom vår islamske ekteskapstjeneste.",
+    "cta": {
+      "start": "Start søket",
+      "learn": "Lær mer"
+    }
+  },
+  "search": {
+    "title": "Hurtigsøk",
+    "lookingFor": "Søker etter",
+    "ageFrom": "Alder fra",
+    "ageTo": "Alder til",
+    "location": "Sted",
+    "sect": "Retning",
+    "searchButton": "Søk etter partnere"
+  },
+  "features": {
+    "title": "Hvorfor velge Zawaj Rishta?",
+    "subtitle": "Finn din perfekte partner med våre unike funksjoner og islamske verdier",
+    "islamicValues": {
+      "title": "Islamske verdier",
+      "description": "Vår plattform er bygget på islamske prinsipper, som sikrer en halal måte å finne din livsledsager på."
+    },
+    "verification": {
+      "title": "Verifiserte profiler",
+      "description": "Hver profil er verifisert gjennom telefonnummerautentisering for din sikkerhet."
+    },
+    "family": {
+      "title": "Familieinvolvering",
+      "description": "Inkluder familien din i matchmaking-prosessen, med respekt for tradisjonelle islamske verdier."
+    },
+    "ai": {
+      "title": "AI-matchmaking",
+      "description": "Avansert AI-teknologi for å finne kompatible partnere basert på dine preferanser og verdier."
+    }
+  },
+  "trust": {
+    "title": "Tillit og sikkerhet",
+    "subtitle": "Din sikkerhet og personvern er våre høyeste prioriteringer",
+    "verification": "Profilverifisering",
+    "verificationDesc": "Hver profil er verifisert gjennom telefonnummerautentisering.",
+    "security": "Datasikkerhet",
+    "securityDesc": "Din personlige informasjon er beskyttet med ende-til-ende-kryptering.",
+    "moderation": "Moderert innhold",
+    "moderationDesc": "Vårt team sikrer at alle profiler følger islamske retningslinjer.",
+    "support": "24/7 Support",
+    "supportDesc": "Få hjelp når som helst med vårt dedikerte støtteteam."
+  }
+}
